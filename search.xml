@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>记个人博客搭建</title>
+      <link href="/2020/02/11/%E8%AE%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <url>/2020/02/11/%E8%AE%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: 记个人博客搭建</span><br><span class="line">tags: [hexo,node]</span><br><span class="line">top: true</span><br><span class="line">cover: true</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>test</title>
       <link href="/2020/02/10/test/"/>
       <url>/2020/02/10/test/</url>
