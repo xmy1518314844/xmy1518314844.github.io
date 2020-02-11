@@ -70,17 +70,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/categories" class="waves-effect waves-light">
-      
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
-      
-      <span>分类</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/archives" class="waves-effect waves-light">
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
@@ -166,17 +155,6 @@
 			    <i class="fa-fw fas fa-tags"></i>
 			
 			标签
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			分类
 		</a>
           
         </li>
@@ -339,8 +317,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -364,6 +341,11 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/tags">3</a></span>
+    <span class="name">Tags</span>
+</div>
+
 
                     </div>
                     <div class="col s12 m12 l4">
@@ -383,6 +365,11 @@
 
 
 
+
+<div class="statis">
+    <span class="count"><a href="/tags">3</a></span>
+    <span class="name">Tags</span>
+</div>
 
 
                                 </div>
@@ -415,10 +402,6 @@
 
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 
                                 </div>
@@ -453,10 +436,6 @@
 
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 
                         </div>
@@ -590,7 +569,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["Mac","效率","快捷方式"]
             }
         ],
         yAxis: [
@@ -603,7 +582,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -789,10 +768,6 @@
 
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
     </div>
